@@ -1,0 +1,109 @@
+*{padding: 0; margin: 0; }
+div{margin: 0 auto; }
+p{font-family: "微软雅黑"; font-size: 16px;
+color: #000000;}
+a{text-decoration: none; color: #7b7a7a;}
+ul,li{list-style: none};
+body{width: 100%; height: 100%; color: #7b7a7a; text-align: center; }
+		
+/*首页 页面内容 css*/
+
+			/*行业分类导航栏css*/
+			.box1 ul li{display: inline;}
+			.pl40{padding-left: 40px;}	
+			
+			/*行业案例 -- 推荐分类部分css*/
+			.case_kuang{position: relative; float: left; width: 426px; }
+				.link{width: 426px; height: 270px; display: block; 
+					
+				}
+				.pic{position:relative;height: 270px;width: 100%;}
+				.textPic{position: absolute; width: 100%; height: 100%; left: -100%; 
+					transition:left 0.4s;
+				}
+				.textPic h3{margin:20% 0 5% 5%; color: #FFFFFF; display: block; font-size: 24px; }
+				.textPic strong{margin-left: 5%; color: #FFFFFF; display: block; }				
+				.picimg_kuang{position: absolute;  transition:opacity 0.4s;}
+				.link:hover .picimg_kuang{opacity: 0;}
+				.link:hover .textPic{left: 0;}
+			
+			.box3{
+				width: 1280px; height: auto; margin: 10 0;
+ 			}
+						
+			.box4 {
+				width: 1280;
+				height: 215;
+				padding: 50px 0;
+				overflow: hidden;
+			}
+			
+			.box5 {
+				width: 290px;
+				height: 215px;
+				float: left;
+			}
+			
+			.box5 ul {
+				padding: 41px 0 0 53px;
+				font-size: 30px;
+			}
+			
+			.box5 li {
+				line-height: 50px;
+				font-size: 35px;
+				color: #595757;
+			}
+			
+			.box6 {
+				font-size: 15px;
+				line-height: 35px;
+				color: rgb(123, 122, 122);
+				font-family: "微软雅黑";
+			}
+			
+			
+			
+			.box7, .box8, .box9{
+				float: left;
+				height: 209px;
+			}
+			.box7 {color: #7b7a7a; width: 292px; padding: 0 27px 0 53px;}
+			.box7 .t1{width: 292px;}  
+			.box7 ul li{font-size: 14px; line-height: 28px;}
+			.box8{width:352px;padding: 0 30px 0 23px;}
+			
+			.box9 { width: 425px; padding: 0 44px 0 24px;}
+			.box9 ul li {
+				    width: 202px;
+				    height: 28px;
+				    float: left;
+				    font-size: 14px;
+				    line-height: 28px;
+				    padding-left: 10px;
+				    overflow: hidden;
+				    background-image:url(../../php/img/zhuyemian/Homeimg/dian.png) no-repea  left center;
+				 
+				}
+				
+			.box7 .t1, .box8 .t2, .box9 .t3
+			{
+				height: 33px;
+				padding-bottom: 10px;
+				border-bottom: #bababa 1px solid;
+				line-height: 33px;
+				font-size: 16px;
+				color: #3b3b3b;
+				margin-bottom: 17px;
+			}
+			.t2 {
+				width: 332px;
+				margin: 0 auto;
+				margin-left: 0;
+			}
+
+
+
+
+
+

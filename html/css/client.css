@@ -1,0 +1,9 @@
+#Box{width: 1280px; height: auto;}
+.ptn_line {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-bottom:1px solid #c6111e;
+    line-height: 35px;
+    color: #575757;
+    font-size: 14px;
+ }

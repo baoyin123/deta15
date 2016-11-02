@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>广州vi设计公司|广州广告设计公司|广州设计公司,广州广告公司,广州vi设计|企业形象设计</title>
+		<meta name="description" content="联合创智,广州vi设计公司,提供vi设计，标志设计，平面设计，企业形象设计，品牌设计策划的广州vi设计公司" />
+		<meta name="Keywords" content="广州vi设计公司,广州广告公司，广州设计公司，广州广告设计公司，企业形象设计，广州vi设计" />
+		<link rel="stylesheet" type="text/css" href="css/Home.css" />
+
+		<style type="text/css">
+			/*首页css*/
+			
+			.box4 {
+				width: 1280;
+				height: 215;
+				padding: 50px 0;
+				overflow: hidden;
+			}
+			
+			.box5 {
+				width: 290px;
+				height: 215px;
+				float: left;
+			}
+			
+			.box5 ul {
+				padding: 41px 0 0 53px;
+				font-size: 30px;
+			}
+			
+			.box5 li {
+				line-height: 50px;
+				font-size: 35px;
+				color: #595757;
+			}
+			
+			.box6 {
+				font-size: 15px;
+				line-height: 35px;
+				color: rgb(123, 122, 122);
+				font-family: "微软雅黑";
+			}
+			
+			.box8 {
+				width: 352px;
+				padding: 0 30px 0 23px;
+				float: left;
+				height: 209px;
+			}
+			
+			.t2 {
+				width: 332px;
+				height: 33px;
+				padding-bottom: 10px;
+				border-bottom: #bababa 1px solid;
+				line-height: 33px;
+				font-size: 16px;
+				color: #3b3b3b;
+				margin: 0 auto;
+				margin-left: 0;
+				margin-bottom: 17px;
+			}
+			/*核心服务css*/
+			
+			#Box {
+				width: 1280px;
+			}
+			
+			.service_title {
+				line-height: 60px;
+				height: 60px;
+				border-bottom: 1px solid #a5a5a5;
+				margin-top: 55px;
+				font-weight: normal;
+			}
+			
+			.about_content {
+				line-height: 35px;
+				margin-top: 40px;
+				margin-bottom: 40px;
+			}
+			
+			.about_line {
+				border-bottom: 1px solid #A5A5A5;
+				height: 1px;
+				line-height: 1px;
+			}
+			
+			.service_dl dt {
+				font-size: 36px;
+				color: #f5a200;
+				margin-bottom: 40px;
+			}
+			
+			.service_dl dd {
+				color: #595757;
+				font-size: 18px;
+				line-height: 35px;
+				font-weight: 400;
+			}
+			
+			.service_line {
+				border-top: 1px dashed #c1c1c0;
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			
+			
+			/*关于css*/
+			
+			.about_title{font-size: 40px; line-height: 100px; height: 100px; border-bottom: 1px solid #A5A5A5; margin-top: 55px; font-weight: normal;}
+			.about_content{line-height: 35px; margin-top: 40px; margin-bottom: 40px;}
+			
+			
+			/*导航栏css*/
+			#navbar{margin: 0 auto; width: 1280px; overflow: hidden;}
+			.navbar_left{float: left; display: block; overflow: hidden; padding-top: 30px;}
+			.navbar_right{float: right; overflow: hidden;}
+			.text_dizhi{float: right; padding: 25px 0 18px 0; text-align: right; font-size: 12px;}
+			.navbar_right ul{font-size: 16px; line-height: 16px; float:right; color: #7B7A7A;}
+			.fengexian{width: 790px;}
+			.navbar_right li{display:inline; padding-left: 40px;}
+			.navbar_right li a:hover{color:red;}
+		</style>
+	</head>
+
+	<body>
+		<div id="navbar">
+			
+			<a class="navbar_left" href="###"><img src="img/Homeimg/logo.jpg"/></a>
+			<div class="navbar_right">
+				<div class="text_dizhi">
+					广州 | 深圳
+				</div>
+				<div class="fengexian">
+					
+				</div>
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">关于</a></li>
+					<li><a href="">案例</a></li>
+					<li><a href="">核心服务</a></li>
+					<li><a href="">客户</a></li>
+					<li><a href="">IPO服务</a></li>
+					<li><a href="">联络</a></li>
+					<li>020-3884 0187</li>
+				</ul>
+			</div>			
+		</div>
+		<!--<div id="Box" style="font-size:16px; color:#000000; line-height:25px;">
+			<table width="1280" cellspacing="0" cellpadding="0" border="0" align="center">
+				<tbody>
+					<tr>
+						<td>
+							<span style="color:#666666;"><img src="" style="width: 1280px; height: 485px;"></span>
+							<p class="about_title">
+								<span style="color:#666666;">ABOUT US</span></p>
+							<p class="about_content">
+								<span style="color:#666666;">联合创智，中国知名的品牌设计机构，一直以来为企业提供品牌视觉形象设计。主要服
+务范围包括集团、金融、科技、制造、地产、酒店行等产业领域，并与中国建筑、新美亚、中石油、东风集团、山东公路、深圳航运等企业建立了稳定良好的合作关
+系。近10年来，已服务国内大中型企业350余家，其中包括32家上市公司，56家高星酒店，50余家行业第一品牌。</span></p>
+							<span style="color:#666666;"><img src="" style="width: 1280px; height: 247px;"></span>
+							<p class="about_title">
+								<span style="color:#666666;">OUR TEAM</span></p>
+							<p style="font-size:36px; margin-top:45px;">
+								<span style="color:#666666;">我们不推崇个人英雄！</span></p>
+							<p style="margin-top:25PX;">
+								<span style="color:#666666;">1+1&gt;2法则：我们崇尚团队力量，以团队的联合协作结晶个人智慧，创造出高于常规加法的价值。</span><br> &nbsp;
+							</p>
+							<div>
+								<span style="color:#666666;">联合创智使命</span></div>
+							<div>
+								<span style="color:#666666;">与中国本土企业一起成长:联合创智将“创建具中国精神的世界品牌”作为自己的企业
+使命，伴随着中国改革开放进程的推进，联合创智以对中国本土市场、企业、消费者、文化的深刻理解和对世界潮流的准确把握，与众多中国一流企业一起，演绎了
+一串串迎接全球化的成长故事，赢得企业界一致的赞誉。</span></div>
+							<div>
+								&nbsp;</div>
+							<div>
+								<span style="color:#666666;">联合创智团队观</span></div>
+							<div>
+								<span style="color:#666666;">我们不推崇英雄:我们注重团队的力量，以团队的联合协作结晶个人智慧，创造出高于常规加法的价值。</span></div>
+							<div>
+								&nbsp;</div>
+							<div>
+								<span style="color:#666666;">联合创智价值观</span></div>
+							<div>
+								<span style="color:#666666;">个性化品牌个性：每个成功的品牌都能找到自己独特的声音。</span></div>
+							<div>
+								&nbsp;</div>
+							<p style="margin-top:80px;" align="center">
+								<img src="" style="width: 1280px; height: 1337px;"></p>
+							<p class="about_line" style="margin-top:75px; margin-bottom:75px;">
+								&nbsp;</p>
+							<p style="font-size:36px;">
+								<span style="color:#666666;">客户为什么选联合创智?</span></p>
+							<table style="margin-top:45px; line-height:40px;" width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td width="135">
+											<span style="color:#666666;"><b>[ 团队稳定 ]</b></span></td>
+										<td style="color:#595757">
+											<span style="color:#666666;">联合创智十年如一日的“创造一流作品”，优势归根结底</span>联合创智持续集聚拥有共同愿景并极具使命感的人才。</td>
+									</tr>
+									<tr>
+										<td>
+											<span style="color:#666666;"><b>[ 客户稳定 ]</b></span></td>
+										<td style="color:#595757">
+											<span style="color:#666666;">高效优质服务造就了稳定的客户，</span><span style="color: rgb(102, 102, 102);">稳定的客户</span><span style="color:#666666;">造就了联合创智的团队稳定及出品的保障。</span></td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<span style="color:#666666;"><b>[ 团队配置 ]</b></span></td>
+										<td style="color:#595757">
+											<span style="color:#666666;">联合创智集结了70、80、90实力与创新的有为之士，不同年龄层，呈现不同的风采，拥有一个汇聚拥有资深、多样化行业的优秀团队。</span></td>
+									</tr>
+									<tr>
+										<td>
+											<span style="color:#666666;"><b>[ 细分市场 ]</b></span></td>
+										<td style="color:#595757">
+											一米宽 &amp; 一公里深，<span style="color:#666666;">联合创智深入行业，贴近市场，以品牌营销策略为基础，制定更精准的品牌形象策略，让你的品牌形象更符合市场需求，更能打动消费者。</span></td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<span style="color:#666666;"><b>[ 与时俱进 ]</b></span></td>
+										<td style="color:#595757">
+											<span style="color:#666666;">在这个快速迭代、瞬息万变的10倍速时代，联合创智与时俱进，深刻洞察
+80，90，00的消费趋势与热点关注的同时，利用大数据应用及新媒体，使品牌与产品在高速提升中保持自我格调。创造与激活品牌与产品的粉丝经济，将产品
+与品牌营销并行推动。联合创智团队的先人一步，在为客户服务时远远超越企业预期。</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<br>
+		</div>-->
+
+		<!--<div id="Box" style="font-size:16px; color:#000000; line-height:25px;">
+			<table width="1280" cellspacing="0" cellpadding="0" border="0" align="center">
+				<tbody>
+					<tr>
+						<td>
+							<img src="" style="width: 1279px; height: 294px;">
+							<p class="service_title" style="font-size:25px;">
+								SERVICE服务</p>
+							<p class="about_content">
+								我们立足于品牌的整合设计和需求，探索策略设计，以协助企业建立和管理品牌为核心使命，帮助企业在市场营销中获得具有强大价值力的品牌形象的支持，提升品牌价值以及科学的品牌建设理念和管理解决方案。</p>
+							<img src="">
+							<p class="about_line" style="margin-top:60PX; margin-bottom:60PX;">
+								&nbsp;</p>
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td colspan="4" valign="top">
+											<img src="" style="width: 580px; height: 167px;"></td>
+										<td valign="top" height="300">
+											<dl class="service_dl">
+												<dt>
+										品牌战略咨询</dt>
+												<dd>
+													品牌规划</dd>
+												<dd>
+													产品规划</dd>
+												<dd>
+													品牌架构梳理</dd>
+												<dd>
+													品牌口号</dd>
+												<dd>
+													品牌定位/故事</dd>
+											</dl>
+										</td>
+									</tr>
+									<tr>
+										<td class="service_line" width="415" valign="top">
+											<dl class="service_dl">
+												<dt>
+										品牌设计</dt>
+												<dd>
+													品牌命名（中英文）</dd>
+												<dd>
+													品牌标志（logo）设计</dd>
+												<dd>
+													品牌vi设计</dd>
+												<dd>
+													产品包装设计<br> 品牌推广策划
+												</dd>
+												<dd>
+													品牌推广物料设计</dd>
+												<dd>
+													（画册、海报、折页等）</dd>
+											</dl>
+										</td>
+										<td width="85">
+											&nbsp;</td>
+										<td class="service_line" width="465" valign="top">
+											<dl class="service_dl">
+												<dt>
+										网络建设与新媒体应用</dt>
+												<dd>
+													网站规划设计与程序开发</dd>
+												<dd>
+													互动体验网站设计</dd>
+												<dd>
+													APP与移动网站开发</dd>
+												<dd>
+													视频拍摄与制作</dd>
+												<dd>
+													微电影创意制作</dd>
+												<dd>
+													微信/微博帐号运营</dd>
+												<dd>
+													全网seo</dd>
+												<dd>
+													微店/微商运营规划</dd>
+											</dl>
+										</td>
+										<td width="85">
+											&nbsp;</td>
+										<td class="service_line" valign="top">
+											<dl class="service_dl">
+												<dt>
+										商业空间设计</dt>
+												<dd>
+													SI系统规划与设计</dd>
+												<dd>
+													办公空间规划与设计</dd>
+												<dd>
+													企业展厅规划与设计</dd>
+												<dd>
+													展览会规划与设计</dd>
+											</dl>
+										</td>
+									</tr>
+									<tr>
+										<td class="service_line" width="415" valign="top">
+											<dl class="service_dl">
+												<dt>
+										导示规划与设计</dt>
+												<dd>
+													商业综合体&amp;地产标识系统设计</dd>
+												<dd>
+													酒店&amp;办公标识系统设计</dd>
+												<dd>
+													城市&amp;区域标识系统设计</dd>
+												<dd>
+													厂区导示系统设计&amp;旅游景区标识系统设计</dd>
+											</dl>
+										</td>
+										<td width="85">
+											&nbsp;</td>
+										<td class="service_line" width="465" valign="top">
+											<dl class="service_dl">
+												<dt>
+										公关活动策划与执行</dt>
+												<dd>
+													发布会</dd>
+												<dd>
+													周年庆典</dd>
+												<dd>
+													年终企业晚会等</dd>
+												<dd>
+													楼盘暖场</dd>
+												<dd>
+													高端会议</dd>
+												<dd>
+													VCR拍摄与制作</dd>
+											</dl>
+										</td>
+										<td width="85">
+											&nbsp;</td>
+										<td class="service_line" valign="top">
+											<dl class="service_dl">
+												<dt>
+										制作业务</dt>
+												<dd>
+													导示标识制作、安装</dd>
+												<dd>
+													展览、展会、展厅搭建</dd>
+												<dd>
+													平面印刷品印刷</dd>
+												<dd>
+													包装盒印刷与制作</dd>
+												<dd>
+													办公用品设计与制作</dd>
+												<dd>
+													礼品设计与制作</dd>
+											</dl>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		
+		</div>-->
+		<!--<div class="box4">
+				<div class="box5">
+					<ul >
+					<li>SOME</li> 
+					<li>CUSTOMERS</li>
+					<li >部分客户</li>
+					</ul>
+				</div>
+				<div class="box6" style="width:945px; font-size:15px; line-height:35px; float: left;">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tbody>
+						<tr>
+							<td width="115" valign="top">
+								中国网通<br>
+								中国木业<br>
+								中兴通讯<br>
+								TCL集团<br>
+								三金药业<br>
+								香港科浪</td>
+							<td width="115" valign="top">
+								中国惠普<br>
+								中国石油<br>
+								中国五矿<br>
+								安莉芳集团<br>
+								东风集团<br>
+								中粮集团</td>
+							<td width="140" valign="top">
+								TCL移动通信<br>
+								鹿山新材料<br>
+								日本艾礼富<br>
+								盈诺德信息技术<br>
+								德维森科技<br>
+								怡丰科技</td>
+							<td width="150" valign="top">
+								国民技术股份<br>
+								键桥通讯<br>
+								美国安维安防集团<br>
+								深信服科技<br>
+								化讯应用材料<br>
+								龙澄高科</td>
+							<td width="155" valign="top">
+								深圳新世界<br>
+								山东海洋投资<br>
+								深圳佳兆业集团<br>
+								香港科浪国际集团<br>
+								中国海外投资年会<br>
+								深圳绿景集团</td>
+							<td width="130" valign="top">
+								立业集团<br>
+								深圳金众集团<br>
+								深圳建工集团<br>
+								东风置业集团<br>
+								立信基金<br>
+								鸿海期货</td>
+							<td valign="top">
+								哈工大深研院<br>
+								中山岐江旅游<br>
+								深圳博士后站<br>
+								雷奥城市规划<br>
+								深美国际学校<br>
+								国际健康城</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+	
+		</div>
+			<div class="box8">
+				<div class="t2">业务单元</div>
+
+				<div style="margin-left:10px; font-size:14px; color:#808080; line-height:28px; margin:0 auto;">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						<tbody>
+							<tr>
+								<td width="85" valign="top">
+									<a href="#">品牌战略</a>
+								</td>
+								<td width="25" valign="top" align="center">
+									|</td>
+								<td width="85" valign="top">
+									<a href="#">品牌设计</a>
+								</td>
+								<td width="25" valign="top" align="center">
+									|</td>
+								<td valign="top">
+									<a href="#">网站设计</a>
+								</td>
+							</tr>
+							<tr>
+								<td width="85" valign="top">
+									<a href="#">logo设计</a>
+								</td>
+								<td width="25" valign="top" align="center">
+									|</td>
+								<td width="85" valign="top">
+									<a href="#">画册设计</a>
+								</td>
+								<td width="25" valign="top" align="center">
+									|</td>
+								<td valign="top">
+									<a href="#">空间设计</a>
+								</td>
+							</tr>
+							<tr>
+								<td width="85" valign="top">
+									<a href="#">标志设计</a>
+								</td>
+								<td width="25" valign="top" align="center">
+									|</td>
+								<td width="85" valign="top">
+									<a href="#">导示设计</a>
+								</td>
+								<td width="25" valign="top" align="center">
+									|</td>
+								<td valign="top">
+									<a href="#">广告设计</a>
+								</td>
+							</tr>
+							<tr>
+								<td width="85" valign="top">
+									<a href="#">商标设计</a>
+								</td>
+								<td width="25" valign="top" align="center">
+									|</td>
+								<td width="85" valign="top">
+									<a href="#">VI设计</a>
+								</td>
+								<td width="25" valign="top" align="center">
+									|</td>
+								<td valign="top">
+									<a href="#">形象设计</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<br>
+
+				</div>
+
+			</div>-->
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/Home.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

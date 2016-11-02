@@ -1,0 +1,48 @@
+*{padding: 0; margin: 0; }
+div{margin: 0 auto; }
+p{font-family: "微软雅黑"; font-size: 16px;
+color: #000000;}
+a{text-decoration: none; color: #7b7a7a;}
+ul,li{list-style: none;}
+body{width: 100%; height: 100%; color: #7b7a7a; text-align: center; }
+#zong{padding-top: 90px;}
+/*导航栏css*/
+			#navbar{ width:1280px;height: 90px; overflow: hidden; position: fixed; z-index: 99999; top:0px;background:#FFFFFF; margin:0 auto;} 
+			.navbar_left{float: left; display: block; overflow: hidden; padding-top: 30px;}
+			.navbar_right{float: right; overflow: hidden;}
+			.text_dizhi{float: right; padding: 25px 0 18px 0; text-align: right; font-size: 12px;}
+			.navbar_right ul{font-size: 16px; line-height: 16px; float:right; color: #7B7A7A;}
+			.fengexian{width: 790px;}
+			.navbar_right li{display:inline; padding-left: 40px;}
+			.navbar_right li a:hover{color:red;}
+			
+/*底部页脚css*/
+					
+			#footer{width: 1280px; height: auto; overflow: hidden;}
+			.footer_top{width: 1170px; height: 368px; padding: 33px 55px 0 55px; background: #575959; color: #9fa0a0; overflow: hidden;}
+			.lianxi{width: 640px; height: 233px; float: left; }
+			.lianxi_title {width: 621px;}
+			.lianxi_title, .renzhi_title{border-bottom:1px solid #d60000; color: #c9caca; font-size: 16px; margin-bottom: 25px; height: 37px;}
+			.lianxi_text {width:630px;} .lianxi_text ul{overflow: hidden; width: 630px; }
+			.lianxi_text li {float: left; width: 50%; }
+			.lianxi_text li div{float: left; height: 38px; line-height: 35px;}
+			.lianxi_text li div img{padding-right: 10px;}
+			.dianhua{font-size: 22px;} 
+			.renzhi{width: 530px; float: left; height: 234px; overflow: hidden;}
+			.renzhi_text, .renzhi_title {width: 460px; margin-left: 50px;}
+			.renzhi_text{line-height: 24px; font-size: 14px;}
+		
+			.lianjie{width: 1170px; height:84px; padding: 27px 0 23px 0 ; border-top:1px solid #3B3B3B; overflow: hidden;}
+			.lianjie_title{width: 207px; float: left;}
+			.lianjie_title div{width: 156px; height: 39px; background:url(../img/Homeimg/f1.gif) 145px 0 no-repeat #696b6b; line-height: 39px; padding-left: 21px; float: left; color: #C9CACA; margin-bottom: 6px; font-size: 12px;}
+			.lianjie_title a {color: #C9CACA;}
+			.lianjie_text {font-size: 12.5px; line-height: 25px; width: 950px; height: 84px; float: right; }
+			.lianjie_text a{color: #9FA0A0;}
+			
+			.footer_botton{width: 1230px; height: 67px; background: #3b3d3d; color: #7e7e7e; line-height: 67px; font-size: 13px; position: relative; padding-left: 50px;}
+			.footer_botton li{font-size: 13px; color: #7E7E7E; line-height: 67px; float: left; }
+			.footer_botton .botton_left{width: 430px;}
+			.footer_botton .botton_center{width: 440px;}
+			.footer_botton .botton_right {float: right; width: 345px;}
+			.botton_right p{float: left;  color: #7E7E7E; }
+			.picimg{float: right; margin-right: 50px;}
