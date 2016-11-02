@@ -14,5 +14,6 @@
      }
 
    ajaxs('../../php/code/index.php?select_text=homepage&select_text2=homepage_id=\"1\"',function(obj) {
+   		
    	
    });

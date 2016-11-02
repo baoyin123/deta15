@@ -1,0 +1,34 @@
+#Box{width: 1280px; height: auto;}
+
+.box4 {
+				width: 1280;
+				height: 215;
+				padding: 50px 0;
+				overflow: hidden;
+				background-color: #2d2d2d;
+				border-top: 3px solid #949494;
+			}
+			
+			.box5 {
+				width: 290px;
+				height: 215px;
+				float: left;
+			}
+			
+			.box5 ul {
+				padding: 41px 0 0 53px;
+				font-size: 30px;
+			}
+			
+			.box5 li {
+				line-height: 50px;
+				font-size: 35px;
+				color: #a4a4a4;
+			}
+			
+			.box6 {
+				font-size: 15px;
+				line-height: 35px;
+				color: #A4A4A4;
+				font-family: "微软雅黑";
+			}
