@@ -13,21 +13,16 @@
           }
      }
 //获取需要轮播图片的数据
-  ajaxs('../../php/code/index.php?select_text=caseName&select_text2=case_lunboimg=\"vi\"',function(obj) {
-  		
+  ajaxs('../../php/code/index.php?select_text=caseName&select_text2=case_lunboimg=\"kj\"',function(obj) {
    		lunbo(obj);
-   		
    });
-// 获取案例展示的图片文字数据
-  ajaxs('../../php/code/index.php?select_text=caseName&select_text2=case_choose=\"1\"',function(obj) {
+  ajaxs('../../php/code/index.php?select_text=caseName&select_text2=case_line=\"kj\"',function(obj) {
    		case_list(obj);
    });
- // 获取部分客户的文本信息
+    // 获取部分客户的文本信息
 ajaxs('../../php/code/index.php?select_text=homepage&select_text2=homepage_id=\"1\"',function(obj) {
    		kehu(obj);
-   });   
-   
-   
+   });  
    //轮播图
   
    
@@ -73,31 +68,26 @@ ajaxs('../../php/code/index.php?select_text=homepage&select_text2=homepage_id=\"
 				return parseInt(Math.random()*(max-min+1)+min);
 			}
 //推荐案例
- var jilu = 12;
+ var jilu = 4;
 function case_list(obj) {
-//	var titleArr = [];
-//	var textArr = [];
-//	var imgArr = [];
-//	var imgurlArr =[];
 	for (var i = 0; i< obj.length; i++) {
 //		titleArr.push(obj[i].case_title);
 //		textArr.push(obj[i].case_detail);
 //		imgArr.push(obj[i].case_img);	
-		var title = obj[i].case_title;
+//		var title = obj[i].case_title;
 		var text = obj[i].case_detail;
-		
-		var img = obj[i].case_img;
-		var imgurl = img.split(",")[0];
+		var imgurl = obj[i].xiaobiaotou_img;
+//		var imgurl = img.split(",")[0];
 //		imgurlArr.push(linshi[0]);
 //		创建li
 		var lis = $("<li></li>");
 		lis.appendTo("#case_list");
 		lis.addClass("case_kuang");
-		if (i >= 12) {
+		if (i >= jilu) {
 			lis.css("display","none");
 		}
 		lis.css({
-			height:270,
+			height:391,
 			overflow:"hidden",
 		})
 
@@ -112,16 +102,15 @@ function case_list(obj) {
 		var divpic = $("<div></div>");
 		divpic.appendTo(lianjie);
 		divpic.addClass("pic");
-		
 //		创建divpic 的子标签
 		var textPic = $("<div></div>");
 		textPic.addClass("textPic");
 		textPic.appendTo(divpic);
-		
+
 //		在textPic里面添加内容
-		var span = $("<h3/>");
-		span.appendTo(textPic);
-		span.text(title);
+//		var span = $("<h3/>");
+//		span.appendTo(textPic);
+//		span.text(title);
 		var strong = $("<strong/>");
 		strong.appendTo(textPic);
 		strong.text(text);
@@ -134,18 +123,17 @@ function case_list(obj) {
 		var picimg = $("<img/>");
 		picimg.appendTo(imgkuang);
 		picimg.attr({
-			"src" : "../../php/img/zhuyemian/anliXX_img/"+imgurl,
-			"alt" : title,
+			"src" : "../../php/img/zhuyemian/anlixiangmu/hangyefeilei/"+imgurl,
 		})
 		picimg.css({
-			width:426,
-			height:270,
+			width:"100%",
+			height:"100%",
 		})
 		
 //		给每一个案例框添加一个背景框
 		var back = colorArr[random(0,colorArr.length-1)];
 	
-		lis.css("background",back);
+//		lis.css("background",back);
 		textPic.css("background",back);	
 	}	
 	
@@ -157,7 +145,7 @@ function tianjia() {
 	
 	for (var i = jilu; i < likuang.length; i++) {
 		
-		if (leijia == 12) {
+		if (leijia == 4) {
 			jilu+=leijia;
 			break;
 		}
@@ -166,7 +154,6 @@ function tianjia() {
 		$(likuang[i]).css("display","block");
 	}
 }
-
 // 部分客户展示   
 function kehu(obj) {
 	var content_client = obj[0].homepage_client;

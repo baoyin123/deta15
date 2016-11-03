@@ -1,0 +1,65 @@
+				.tjal1{width: 426px; height: 157px; float:left;}
+				/*行业分类导航栏css*/
+				.box1 ul li{display: inline;}
+				.pl40{padding-left: 40px; font-weight: 700;}
+				.pl40:hover a{color: red;}
+				.box1 ul li {color: #000000;}	
+				.box1 ul li .hover{color: #000000;}	
+/*专业案例 -- 分类部分css*/
+				.case_kuang{float: left; padding-top: 9px; width: 320px; height: auto; background: #FFFFFF;}
+				.case_kuang dt{height: 375px; width: 313px; position: relative; overflow: hidden; }
+				.case_kuang dt a{display: block; opacity: 0; z-index: 1; background: #000000; width: 100%; height: 100%; transition: opacity .5s;}
+				.case_kuang dt a:hover{ cursor:pointer; opacity: .5;}
+				/*文本*/
+				.case_kuang dd {height: 60px; line-height: 60px; font-size: 16px; color: #333333;}
+				.case_kuang dd a:hover{color: red; cursor:pointer;}
+				
+				
+				/*查看更多按钮*/
+				.gengduo {
+					    width: 1280px;
+					    height: 92px;
+					    line-height: 92px;
+					    text-align: center;
+					    font-size: 20px;
+					}
+				.gengduo a:hover {color:red;}
+				/*部分客户展示*/				
+			.box4 {
+				width: 1280;
+				height: 215;
+				padding: 50px 0;
+				overflow: hidden;
+			}
+			
+			.box5 {
+				width: 290px;
+				height: 215px;
+				float: left;
+			}
+			
+			.box5 ul {
+				padding: 41px 0 0 53px;
+				font-size: 30px;
+			}
+			
+			.box5 li {
+				line-height: 50px;
+				font-size: 35px;
+				color: #595757;
+			}
+			
+			.box6 {
+				font-size: 15px;
+				line-height: 35px;
+				color: rgb(123, 122, 122);
+				font-family: "微软雅黑";
+			}
+			
+			
+			/*专业分类导航*/
+			.hyfl{width: 1280px; height: 64px; background: #efefef;  overflow: hidden; margin-bottom: 10px;}
+				.hyfl ul li{display: inline; line-height: 64px; padding: 0 40px; font-size: 18px; color: #727171; font-weight: 700;}
+				.hyfl a:hover {color: red;}
+				#zong .hyfl ul li .hover {color: #000000;}
+				.hyfl ul li .hover:hover{color: #000000;}

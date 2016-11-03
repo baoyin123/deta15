@@ -1,0 +1,56 @@
+.tjal1{width: 426px; height: 157px; float:left;}
+
+/*行业案例 -- 推荐分类部分css*/
+				.case_kuang{position: relative; float: left; width: 426px; }
+				.link{width: 426px; height: 270px; display: block; 
+				}
+				.pic{position:relative;height: 270px;width: 100%;}
+				.textPic{position: absolute; width: 100%; height: 100%; left: -100%; 
+					transition:left 0.4s;
+				}
+				.textPic h3{margin:20% 0 5% 5%; color: #FFFFFF; display: block; font-size: 24px; }
+				.textPic strong{margin-left: 5%; color: #FFFFFF; display: block; }				
+				.picimg_kuang{position: absolute;  transition:opacity 0.4s;}
+				.link:hover .picimg_kuang{opacity: 0;}
+				.link:hover .textPic{left: 0;}
+				
+				/*查看更多按钮*/
+				.gengduo {
+					    width: 1280px;
+					    height: 92px;
+					    line-height: 92px;
+					    text-align: center;
+					    font-size: 20px;
+					}
+				.gengduo a:hover {color:red;}
+				/*部分客户展示*/				
+			.box4 {
+				width: 1280;
+				height: 215;
+				padding: 50px 0;
+				overflow: hidden;
+			}
+			
+			.box5 {
+				width: 290px;
+				height: 215px;
+				float: left;
+			}
+			
+			.box5 ul {
+				padding: 41px 0 0 53px;
+				font-size: 30px;
+			}
+			
+			.box5 li {
+				line-height: 50px;
+				font-size: 35px;
+				color: #595757;
+			}
+			
+			.box6 {
+				font-size: 15px;
+				line-height: 35px;
+				color: rgb(123, 122, 122);
+				font-family: "微软雅黑";
+			}

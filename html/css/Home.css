@@ -30,7 +30,8 @@ body{width: 100%; height: 100%; color: #7b7a7a;}
 			.box3{
 				width: 1280px; height: auto; margin: 10 0;
  			}
-						
+				
+		/*部分客户展示*/				
 			.box4 {
 				width: 1280;
 				height: 215;
@@ -64,6 +65,7 @@ body{width: 100%; height: 100%; color: #7b7a7a;}
 			
 			
 			
+		/*关于我们  业务单元 新闻动态*/	
 			.box7, .box8, .box9{
 				float: left;
 				height: 209px;

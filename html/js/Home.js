@@ -10,15 +10,15 @@
                    		hanshu(obj);
                    	}
               }
-          }
-     }
+      }
+ }
 
    ajaxs('../../php/code/index.php?select_text=homepage&select_text2=homepage_id=\"1\"',function(obj) {
    		lunbo(obj);
- 
    		kehu(obj);
    });
-   ajaxs('../../php/code/index.php?select_text=caseName&select_text2=case_choose=\"1\"',function(obj) {
+   ajaxs('../../php/code/index.php?select_text=caseName&select_text2=home_tuijian=\"tj\"',function(obj) {
+   		
    		case_list(obj);
    });
   //轮播图js
@@ -37,35 +37,17 @@
 	 			
 	 			var imgs = $("<img />");
 	 			imgs.appendTo(divs);
-	 			imgs.addClass("lunbo_img")
+	 			imgs.addClass("lunbo_img");
 				imgs.attr("src","../../php/img/zhuyemian/Homeimg/"+ imgarr[i]);
 
 	 		}	
-			 $(function(){
-				$("#kinMaxShow").kinMaxShow({
-						height:533,
-						intervalTime:1.5,
-						hoverPause:false,
-						button:{
-								showIndex:false,
-								normal:{width:'14px',height:'14px',left:'950px',top:'485px',background:"url(../../php/img/zhuyemian/Homeimg/1111.png) no-repeat",marginRight:'5px',border:"0px"},
-								focus:{background:"url(../../php/img/zhuyemian/Homeimg/2222.png) no-repeat",border:"none"}
-							}			
-					});
-					
-					
-				
-				$("#kinMaxShow2").kinMaxShow({
-						height:294,
-						intervalTime:3,
-						button:{
-								showIndex:false,
-								normal:{width:'14px',height:'14px',left:'1180px',top:'246px',background:"url(../../php/img/zhuyemian/Homeimg/1111.png) no-repeat",marginRight:'5px',border:"0px"},
-								focus:{background:"url(../../php/img/zhuyemian/Homeimg/2222.png) no-repeat",border:"none"}
-							}			
-					});
-			
-			});	
+			lunbojs(zongkuang,{
+				height:533,
+				intervalTime:1.5,
+			},{
+				left:"950px",
+				top:"485px",
+			});
 
 }
  
